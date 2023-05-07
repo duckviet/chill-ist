@@ -26,14 +26,14 @@
   }
   .frame{
     width: 80%;
-    height: 700px;
+    height: 650px;
     margin: 60px auto;
     align-items: center;
     background-color: #fcfcfc;
     /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); */
   }
   .player {
-    height: 700px;
+    height: 650px;
     display: flex;
     flex-direction: column;
   }
@@ -99,7 +99,7 @@
     
   }
   .timing{
-    margin-top: 63px;
+    margin-top: 113px;
     align-items: center;
   }
   .time-music-both{
