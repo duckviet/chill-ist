@@ -165,7 +165,18 @@ const $$= document.querySelectorAll.bind(document)
             //     cd.style.width = newCdWidth > 0 ? newCdWidth + 'px' :0
                 
             //   }
-
+              document.body.addEventListener('keydown', function(event) {
+                const key = event.code;
+                if(key === 'Space'){
+                  playbtn.click();
+                }
+                else if(key === 'ArrowLeft'){
+                  prevBtn.click();
+                }
+                else if(key === 'ArrowRight'){
+                  nextBtn.click();
+                }
+              });
               // Xử lý khi click play
               playbtn.onclick = function() {
                   if(_this.isPlaying){
