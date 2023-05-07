@@ -11,13 +11,9 @@
   }
   
   body {
-    /* background-color: #c85f48; */
+    
     background-color: #8dc2d5;
-    /* background-color: #2a343a; */
-    /* background-color: #f8d694 */
-    /* background-color: #c5cfa5; */
-    /* background-color: #2a67ab; */
-    /* background-color: #ed7144e7; */
+    
   }
   
   html {
@@ -31,10 +27,11 @@
     margin: 60px auto;
     align-items: center;
     background-color: #fcfcfc;
-    /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); */
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
   }
   .player {
     height: 650px;
+    min-width: 450px;
     display: flex;
     flex-direction: column;
   }
